@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.navbar > a {
+  margin: 5px 15px 5px 15px;
+  color: rgb(255, 255, 255);
+
+}
+.content{
+display: flex;
+justify-content: center;
+padding: 20px;
+/* background-color: rgba(83, 83, 83, 0.288); */
+}
+.artistform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artistform>input{
+  font-size: large;
+  margin: 5px;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.artistform>button{
+  width: 100px;
+  font-size: large;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.artistform>button:hover{
+  width: 100px;
+  cursor: pointer;
+  background-color: rgba(50, 231, 22, 0.514);
+  font-size: large;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bolder;
+}
+.songlist{
+  border: 2px solid black;
+  min-width: 200px;
+  display: flex;
+  max-width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(255, 228, 196, 0.413);
+}
+.songlistDiv{
+  overflow-y: scroll;
+  max-height: 80vh;
+
+}
+.deletebtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 0.1px solid red;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 0, 0, 0.877);
+  color: white;
+font-weight: bolder;
+}
+.deletebtn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 0.1px solid red;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 0, 0, 0.877);
+  color: white;
+font-weight: bolder;
+cursor: pointer;
+
+}
+*::-webkit-scrollbar{
+  display: none;
+}
