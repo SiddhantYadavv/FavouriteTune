@@ -10,10 +10,7 @@ app.use(cors())
 // app.use("/getArtists",ArtistRouter)
 app.use("/songs",SongRouter)
 
-mongoose.connect(
-    "mongodb+srv://siddhantyadav:siddhantyadav@cluster0.ti48bua.mongodb.net/FavouriteTune?retryWrites=true&w=majority",
-    
-  );
+mongoose.connect("DatabaseLink" );
   
 
 app.listen(3000,()=>{
