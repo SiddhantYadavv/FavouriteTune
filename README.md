@@ -5,7 +5,7 @@ Welcome to the "My Favourite Tunes" project! This NodeJS application empowers us
 ## Getting Started
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/siddhantyadavv/your-repo.git
+   git clone https://github.com/siddhantyadavv/favouritetune.git
 ### Client Setup
 
 2. **Navigate to the Client Directory:**
